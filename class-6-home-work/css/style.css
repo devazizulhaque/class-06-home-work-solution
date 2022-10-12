@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+[class*='col-']{
+    float: left;
+    border: 1px solid gray;
+    height: 10px;
+}
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.body-height{height: 600px;}
+.big-footer-height{height: 300px;}
+.footer-height{height: 50px;}
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.first-div{height: 300px;}
+.first-child{height: 100px;}
+.first-second-child{height: 150px;}
+.second-div{height: 150px;}
+.third-div{height: 200px;}
+.four-div{height: 300px;}
+.four-child{height: 300px;}
+.four-second-child{height: 150px;}
+.four-three-child{height: 100px;}
+.four-four-child{height: 300px;}
+.four-four-one-child{height: 150px;}
